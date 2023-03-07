@@ -1022,3 +1022,95 @@ header2 section .cards .card:hover .rest_card{
         max-width: 22px;
     }
 }
+
+@media (max-width: 452px){
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 352px){
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 252px){
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 152px){
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
