@@ -1022,3 +1022,157 @@ header3 section .cards .card:hover .rest_card{
         max-width: 22px;
     }
 }
+
+@media (max-width: 452px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 352px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .more-about-drama .quality {
+        margin: auto;
+    }
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 252px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .more-about-drama .quality {
+        margin: auto;
+    }
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 152px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .more-about-drama .quality {
+        margin: auto;
+    }
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
+    }
+}
