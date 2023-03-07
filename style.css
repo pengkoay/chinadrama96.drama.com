@@ -1023,7 +1023,7 @@ header section .cards .card:hover .rest_card{
     }
 }
 
-@media (max-width: 352px){
+@media (max-width: 452px){
     header .content h1{
         font-size: 20px;
     }
