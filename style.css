@@ -1024,100 +1024,155 @@ header section .cards .card:hover .rest_card{
 }
 
 @media (max-width: 452px){
-    header .content h1{
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
         font-size: 20px;
     }
-    
-    header .content p {
-        font-size: 11px;
-        width: 300px;
-        word-break: break-all;
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
     }
     
-    header .content .btns a {
-        padding: 1px 15px;
+    .short-video {
+        width: 100px;
+        height: 30px;
         font-size: 10px;
-        font-weight: 600;
-        background: linear-gradient(90deg, #00bdff, #0079ff);
-        border-radius: 5px;
-        color: #fff;
-        margin-left: 10px;
-        text-decoration: none;
-        animation: button 1s linear infinite;
+        margin: auto;
     }
 }
 
 @media (max-width: 352px){
-    header .content h1{
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+        margin: auto;
         font-size: 20px;
     }
-    
-    header .content p {
-        font-size: 11px;
-        width: 300px;
-        word-break: break-all;
+
+    .more-about-drama .quality {
+        margin: auto;
     }
-    
-    header .content .btns a {
-        padding: 1px 15px;
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
         font-size: 10px;
-        font-weight: 600;
-        background: linear-gradient(90deg, #00bdff, #0079ff);
-        border-radius: 5px;
-        color: #fff;
-        margin-left: 10px;
-        text-decoration: none;
-        animation: button 1s linear infinite;
+        margin: auto;
+    }
+
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
     }
 }
 
 @media (max-width: 252px){
-    header .content h1{
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+        margin: auto;
         font-size: 20px;
     }
-    
-    header .content p {
-        font-size: 11px;
-        width: 300px;
-        word-break: break-all;
+
+    .more-about-drama .quality {
+        margin: auto;
     }
-    
-    header .content .btns a {
-        padding: 1px 15px;
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
         font-size: 10px;
-        font-weight: 600;
-        background: linear-gradient(90deg, #00bdff, #0079ff);
-        border-radius: 5px;
-        color: #fff;
-        margin-left: 10px;
-        text-decoration: none;
-        animation: button 1s linear infinite;
+        margin: auto;
+    }
+
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
     }
 }
 
 @media (max-width: 152px){
-    header .content h1{
+    
+    .banner-container {
+        margin-left: 10px;
+    }
+
+    .drama-title h1 {
+        color: #fff;
+        font-weight: 600;
+        font-size: 2.3rem;
+        line-height: 50px;
+        margin: auto;
         font-size: 20px;
     }
-    
-    header .content p {
-        font-size: 11px;
-        width: 300px;
-        word-break: break-all;
+
+    .more-about-drama .quality {
+        margin: auto;
     }
-    
-    header .content .btns a {
-        padding: 1px 15px;
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
+    }
+
+    .watch-btn {
+        width: 100px;
+        height: 30px;
         font-size: 10px;
-        font-weight: 600;
-        background: linear-gradient(90deg, #00bdff, #0079ff);
-        border-radius: 5px;
-        color: #fff;
-        margin-left: 10px;
-        text-decoration: none;
-        animation: button 1s linear infinite;
+        margin: auto;
+    }
+
+    .short-video {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: auto;
     }
 }
-
-
-
