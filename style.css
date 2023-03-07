@@ -1024,8 +1024,7 @@ header section .cards .card:hover .rest_card{
 }
 
 @media (max-width: 300px){
-    header .content .details h3{
-    color: #fff;
+    header .content h1{
     display: flex;
     align-items: center;
     font-size: 5px;
