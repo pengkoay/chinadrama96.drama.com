@@ -1053,14 +1053,28 @@ header2 section .cards .card:hover .rest_card{
         font-weight: 600;
         font-size: 2.3rem;
         line-height: 50px;
+        margin: auto;
+    }
+
+    .more-about-drama .quality {
+        margin: auto;
+    }
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
     }
 
     .watch-btn {
         width: 100px;
         height: 30px;
         font-size: 10px;
+        margin: auto;
     }
-    
+
     .short-video {
         width: 100px;
         height: 30px;
@@ -1076,14 +1090,28 @@ header2 section .cards .card:hover .rest_card{
         font-weight: 600;
         font-size: 2.3rem;
         line-height: 50px;
+        margin: auto;
+    }
+
+    .more-about-drama .quality {
+        margin: auto;
+    }
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
     }
 
     .watch-btn {
         width: 100px;
         height: 30px;
         font-size: 10px;
+        margin: auto;
     }
-    
+
     .short-video {
         width: 100px;
         height: 30px;
@@ -1099,14 +1127,28 @@ header2 section .cards .card:hover .rest_card{
         font-weight: 600;
         font-size: 2.3rem;
         line-height: 50px;
+        margin: auto;
+    }
+
+    .more-about-drama .quality {
+        margin: auto;
+    }
+
+    .language span {
+        margin: auto;
+    }
+
+    .title-bottom .category {
+        margin: auto;
     }
 
     .watch-btn {
         width: 100px;
         height: 30px;
         font-size: 10px;
+        margin: auto;
     }
-    
+
     .short-video {
         width: 100px;
         height: 30px;
