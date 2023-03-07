@@ -1022,3 +1022,12 @@ header section .cards .card:hover .rest_card{
         max-width: 22px;
     }
 }
+
+@media (max-width: 300px){
+    header .content .details h3{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 5px;
+    }
+}
