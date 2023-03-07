@@ -1,0 +1,1024 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(23, 23, 23);
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+header3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid #fff;*/
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 10px 25px -8px #000;
+}
+
+header3::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("images/top3.jpg")no-repeat center center/cover;
+    opacity: .9; 
+    z-index: -1;
+}
+
+header3::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #000);
+    z-index: -1;
+}
+
+header3 video{
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: -50%;
+    z-index: -1;
+}
+
+header3 nav{
+    width: 100%;
+    height: 10%;
+    /*border: 1px solid #fff;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+header3 nav .logo_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header3 nav .logo_ul img{
+    width: 90%;
+}
+
+header3 nav .logo_ul ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header3 nav .logo_ul ul li{
+    padding: 3px 15px;
+}
+
+header3 nav .logo_ul ul li a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    transition: .3s linear;
+}
+
+header3 nav .logo_ul ul li a:hover{
+    color: rgb(255, 255, 255, .7);
+}
+
+header3 nav .search_user{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header3 nav .search_user input{
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255, .3);
+    color: #fff;
+    margin-right: 10px;
+}
+
+header3 nav .search_user input::placeholder{
+    color: #fff;
+}
+
+header3 nav .search_user img{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+
+header3 nav .search_user .search{
+    position: absolute;
+    width: 320px;
+    height: 270px;
+    /*border: 1px solid #fff;*/
+    right: 0;
+    top: 40px;
+    z-index: 99999;
+    overflow-y: auto;
+}
+
+header3 nav .search_user .search::-webkit-scrollbar{
+    width: 5px;
+    background: rgb(255, 255, 255, .3);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+header3 nav .search_user .search::-webkit-scrollbar-thumb{
+    width: 5px;
+    background: rgb(255, 255, 255, .3);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+header3 nav .search_user .search:hover::-webkit-scrollbar{
+    visibility: visible;
+}
+
+header3 nav .search_user .search:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+
+header3 nav .search_user .search .card{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 3px 0px;
+    text-decoration: none;
+    display: none;
+}
+
+header3 nav .search_user .search .card::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(260, 260, 260, .35);
+    filter: blur(5px);
+    border-radius: 5px;
+    z-index: -1;
+}
+
+header3 nav .search_user .search .card img{
+    width: 28px;
+    height: 90%;
+    border-radius: 2px;
+    margin-left: 8px;
+}
+
+header3 nav .search_user .search .card .cont{
+    margin-left: 10px;
+    color: #fff;
+}
+
+header3 nav .search_user .search .card h3{
+    font-size: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 250px;
+}
+
+header3 nav .search_user .search .card p{
+    font-size: 10px;
+    color: rgba(255, 255, 255, .8);
+    
+}
+
+header3 nav .search_user .search .card span,
+.more-about-drama .quality{
+    background: yellow;
+    color: #000;
+    padding: 0px 3px;
+    margin: 0px 5px 0px 10px;
+    font-weight: 500;
+}
+
+header3 .content{
+   position: relative;
+   color: #fff;
+   margin-top: 50px;
+   padding-left: 50px;
+}
+
+header3 .content h1{
+   font-size: 50px;
+}
+
+header3 .content p{
+   font-size: 11px;
+   width: 350px;
+   word-break: break-all;
+}
+
+header3 .content .details{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header3 .content .details h6{
+    color: rgb(255, 255, 255, .8);
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+header3 .content .details h5{
+    color: rgb(142, 230, 48);
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+header3 .content .details h4{
+    color: #fff;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+header3 .content .details h3{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+header3 .content .details h3 span{
+    background: yellow;
+    color: #000;
+    padding: 0px 3px;
+    margin: 0px 5px 0px 5px;
+    font-weight: 500;
+}
+
+header3 .content .details h3 i,
+{
+    margin-right: 10px;
+}
+
+header3 .content .btns{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header3 .content .btns a{
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #00bdff, #0079ff);
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+    animation: button 1s linear infinite;
+}
+
+@keyframes button{
+    0%{
+        background: linear-gradient(0deg, #00bdff, #0079ff);
+    }
+    12%{
+        background: linear-gradient(45deg, #00bdff, #0079ff);
+    }
+    24%{
+        background: linear-gradient(95deg, #00bdff, #0079ff);
+    }
+    36%{
+        background: linear-gradient(145deg, #00bdff, #0079ff);
+    }
+    48%{
+        background: linear-gradient(195deg, #00bdff, #0079ff);
+    }
+60%{
+        background: linear-gradient(245deg, #00bdff, #0079ff);
+    }
+    72%{
+        background: linear-gradient(295deg, #00bdff, #0079ff);
+    }
+    100%{
+        background: linear-gradient(360deg, #00bdff, #0079ff);
+    }
+}
+
+header3 section{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 0px 50px;
+    bottom: 20px;
+    color: #fff;
+}
+
+header3 section .cards{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /*border: 1px solid #fff;*/
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+header3 section .cards::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    background: rgb(255, 255, 255, .3);
+    border-radius: 5px;
+}
+
+header3 section .cards .card{
+    position: relative;
+    min-width: 130px;
+    height: 180px;
+    /*border: 1px solid #fff;*/
+    border-radius: 8px;
+    margin-right: 10px;
+    background: #000;
+    transition: .3s linear;
+}
+
+header3 section .cards .card .poster{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+
+header3 section .cards .card:hover{
+    min-width: 300px;
+    overflow: hidden;
+}
+
+header3 section .cards .card .rest_card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    opacity: 0;
+    transition: 1s linear;
+}
+
+header3 section .cards .card .rest_card img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+header3 section .cards .card .rest_card::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #000);
+    left:0;
+    bottom: 0;
+    z-index: -1;
+}
+
+header3 section .cards .card .rest_card .cont{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+header3 section .cards .card .rest_card .cont .sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header3 section .cards .card .rest_card .cont .sub p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, .7);
+}
+
+header3 section .cards .card .rest_card .cont .sub h3{
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+header3 section .cards .card .rest_card .cont .sub h3 span{
+    background: yellow;
+    color: #000;
+    padding: 0px 3px;
+    margin: 0px 5px 0px 10px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+header3 section .cards .card .rest_card .cont .sub h3 i{
+    margin-right: 3px;
+}
+
+header3 section .cards .card:hover .rest_card{
+    opacity: 1;
+}
+
+.fa fa-search{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1250px){
+    header3 video{
+        position: absolute;
+        width: 200%;
+        height: 200%;
+    }
+}
+
+@media screen and (max-width: 788px){
+    header3{
+        width: 100%;
+        height: 100%;
+    }
+    header3 nav{
+        padding: 0px 10px;
+        height: 15%;
+    }
+    header3 nav .logo_ul ul{
+        position: absolute;
+        top: 0px;
+        left: 20px;
+    }
+    header3 nav .logo_ul ul li{
+        padding: 3px 5px;
+    }
+    header3 nav .logo_ul ul li a{
+        font-size: 10px;
+         margin-top: 10px;
+        left: -30;
+    }
+    header3 .content{
+        padding-left: 10px;
+    }
+    header3 section{
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 788px){
+    header3 vieo{
+        position: absolute;
+        width: 520%;
+        height: 180%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header3{
+        width: 100%;
+        height: 100%;
+    }
+    header3 nav{
+        padding: 0px 10px;
+        height: 15%;
+    }
+    header3 nav .logo_ul ul{
+        position: absolute;
+        top: 0px;
+        left: 20px;
+    }
+    header3 nav .logo_ul ul li{
+        padding: 3px 5px;
+    }
+    header3 nav .logo_ul ul li a{
+        font-size: 10px;
+        margin-top: 10px;
+        left: -30;
+    }
+    header3 .content{
+        padding-left: 10px;
+    }
+    header3 section{
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header3 video {
+        position: absolute;
+        width: 300%;
+        height: 200%;
+    }
+}
+    
+.banner-container{
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    position: relative;
+}
+.title-container{
+    width: 100%;
+    max-width: 500%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.drama-title h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.3rem;
+    line-height: 50px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+}
+.more-about-drama .quality {
+    background: yellow;
+    color: #000;
+    padding: 0px 3px;
+    margin: 0px 5px 0px 10px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.more-about-drama .quality h3 i,
+{
+    margin-right: 5px;
+    font-size: 13px;
+}
+.more-about-drama span{
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+}
+.language{
+    margin-top: 10px;
+}
+.language span{
+    background-color: darkgrey;
+    padding: 5px 10px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 13px;
+}
+.title-bottom{
+    margin-top: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.title-bottom .category{
+    margin-left: 50px;
+    margin-right: 40px;
+    font-size: 0.8rem;
+    color: #dadada;
+}
+.title-bottom .category strong{
+    font-weight: 500;
+    color: #fff;
+}
+.title-bottom .category a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.watch-btn{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #00bdff, #0079ff);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    text-decoration: none;
+    animation: button 1s linear infinite;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.short-video{
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #00bdff, #0079ff);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    text-decoration: none;
+    animation: button 1s linear infinite;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-left: 230px;
+    margin-top: 10px;
+}
+.trailer{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+    background: rgba(0,0,0,0.95);
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+}
+.trailer.active{
+    visibility: visible;
+    opacity: 1;
+}
+.trailer video{
+    position: relative;
+    max-width: 600px;
+    outline: none;
+    top: 10px;
+    height: 300px;
+}
+.close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+}
+
+/*--details===================================*/
+.drama-details{
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto 20px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.drama-details strong{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.drama-details p{
+    color: #747474;
+    margin: 10px 0px;
+}
+
+/*==screenshots===============================*/
+.screenshots{
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto 100px auto;
+    margin-left: 300px;
+}
+.screenshots strong{
+    color: yellow;
+    font-family: Menonton;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.screen-s-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin-left: 300px;
+}
+.screen-s-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*==Download===============================*/
+.download-drama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.download-container{
+    max-width: 1000px;
+    width: 100%;
+}
+.download-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(136,136,136,0.06);
+}
+.download-box a,
+.download-box span{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    color: #d8d8d8;
+    letter-spacing: 1px;
+}
+.download-box a{
+    color: #fff;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.download-box a:hover{
+    background: rgba(237, 247, 89);
+    color: #000;
+    transition: all ease 0.3s;
+}
+
+/*==Footer===============================*/
+.footer{
+    background: #000;
+    opacity: .6;
+    margin: 30px auto 20px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer p{
+    color: #747474;
+    margin: 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+@media (max-width: 887px){
+    .screenshots strong{
+        margin-left: 60px;
+    }
+    .screen-s-container{
+        margin-left: 165px;
+    }
+}
+
+@media (max-width: 788px){
+    .title-container{
+        width: 1000%;
+    }
+    .more-about-drama .quality {
+    font-size: 12px;
+    }
+    .more-about-drama .quality h3 i,
+    {
+    font-size: 12px;
+    }
+    .more-about-drama span{
+        font-size: 12px;
+    }
+    .language span{
+        font-size: 12px;
+     }
+    .banner-container{
+        margin-left: 90px;
+    }
+    .screenshots{
+        width: 100%;
+        max-width: 800px;
+        margin: 0px auto 100px auto;
+        margin-left: 150px;
+    }
+    .screen-s-container{
+        margin-left: 150px;
+    }
+    .download-drama{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .trailer{
+        top: 50%;
+        width: 60%;
+        height: 40%;
+    }
+    .trailer video{
+        margin-left: 260px;
+        width: 100%;
+        right: 130px;
+    }
+}
+
+@media (max-width: 584px){
+    .title-container{
+        width: 1000%;
+    }
+    .drama-title h1{
+        font-size: 25px;
+    }
+    .more-about-drama .quality {
+    font-size: 12px;
+    }
+    .more-about-drama .quality h3 i,
+    {
+    font-size: 12px;
+    }
+    .more-about-drama span{
+        font-size: 12px;
+    }
+    .language span{
+        font-size: 12px;
+     }
+    .watch-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .title-bottom{
+        margin-top: 400px;
+    }
+    .short-video{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .screenshots{
+        width: 100%;
+        max-width: 800px;
+        margin: 0px auto 100px auto;
+        margin-left: 120px;
+    }
+    .screen-s-container{
+        margin-left: 120px;
+    }
+    .download-drama{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .trailer{
+        margin-right: 100px;
+        width: 60%;
+        height: 30%;
+    }
+    .trailer video{
+        margin-left: 260px;
+        width: 90%;
+        height: 250px;
+    }
+    .close{
+        top: 20px;
+        right: 20px;
+        max-width: 22px;
+    }
+}
+
+@media (max-width: 502.40px){
+    .title-container{
+        width: 1000%;
+    }
+    .drama-title h1{
+        font-size: 20px;
+    }
+    .more-about-drama .quality {
+    font-size: 10px;
+    }
+    .more-about-drama .quality h3 i,
+    {
+    font-size: 10px;
+    }
+    .more-about-drama span{
+        font-size: 10px;
+    }
+    .language span{
+        font-size: 10px;
+     }
+    .watch-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .title-bottom{
+        margin-top: 400px;
+    }
+    .short-video{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .screenshots{
+        width: 100%;
+        max-width: 800px;
+        margin: 0px auto 100px auto;
+        margin-left: 100px;
+    }
+    .screen-s-container{
+        margin-left: 100px;
+    }
+    .download-drama{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    .title-container{
+        margin-right: 100px;
+        width: 1000%;
+    }
+    .drama-title h1{
+        font-size: 20px;
+    }
+    .more-about-drama .quality {
+    font-size: 12px;
+    }
+    .more-about-drama .quality h3 i,
+    {
+    font-size: 12px;
+    }
+    .more-about-drama span{
+        font-size: 12px;
+    }
+    .language span{
+        font-size: 12px;
+     }
+    .watch-btn{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .title-bottom{
+        margin-top: 400px;
+    }
+    .short-video{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .screenshots{
+        width: 100%;
+        max-width: 800px;
+        margin: 0px auto 100px auto;
+        margin-left: 100px;
+    }
+    .screenshots strong{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    .screen-s-container{
+        margin-left: 100px;
+    }
+    .download-drama{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .trailer{
+        width: 90%;
+        height: 50%;
+    }
+    .trailer video{
+        max-width: 450px;
+        top: 10px;
+        height: 250px;
+    }
+    .close{
+        top: 20px;
+        right: 20px;
+        max-width: 22px;
+    }
+}
