@@ -1023,10 +1023,26 @@ header section .cards .card:hover .rest_card{
     }
 }
 
-@media (max-width: 352px){
+@media (max-width: 252px){
     header .content h1{
-    display: flex;
-    align-items: center;
-    font-size: 5px;
+        font-size: 5px;
     }
+    
+    header .content p {
+        font-size: 11px;
+        width: 300px;
+        word-break: break-all;
+    }
+    
+    header .content .btns a {
+        padding: 1px 15px;
+        font-size: 10px;
+        font-weight: 600;
+        background: linear-gradient(90deg, #00bdff, #0079ff);
+        border-radius: 5px;
+        color: #fff;
+        margin-left: 10px;
+        text-decoration: none;
+        animation: button 1s linear infinite;
+}
 }
