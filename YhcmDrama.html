@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x.icon">
+    <link rel="stylesheet" href="style2.css">
+    <!--==Using-Font-Awesome====================-->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+    <title>CH Drama</title>
+</head>
+    
+<body>
+    <header2>
+        <nav>
+            <div class="logo_ul">
+                <a href="index.html" target="_blank">
+                    <img src="images/logo.png">
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="costume.html">Costume</a>
+                    </li>
+                    <li>
+                        <a href="modern.html">Modern</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search_user">
+                <form action="" class="search-box">
+                    <input type="text" value="" id="search" onchange="openPage()" placeholder="Search Drama" class="search-input" required/>
+                    
+                    <script>
+                        function openPage(){
+                            var input = document.getElementById("search").value;
+                            
+                            if(input === "致我们暖暖的小时光"){
+                                window.open("PyhomsDrama.html");
+                            }
+                            
+                            if(input === "Put Your Head On My Shoulder"){
+                                window.open("PyhomsDrama.html");
+                            }
+                            
+                            if(input === "班长殿下"){
+                                window.open("YhcmDrama.html");
+                            }
+                            
+                            if(input === "Your Highness Class Monitor"){
+                                window.open("YhcmDrama.html");
+                            }
+                            
+                            if(input === "离人心上"){
+                                window.open("TspDrama.html");
+                            }
+                            
+                            if(input === "The Sleepless Princess"){
+                                window.open("TspDrama.html");
+                            }
+                        }
+                    </script>
+                </form>
+                <img src="images/user.jpg">
+            </div>
+        </nav>
+        <section2>
+                <!--content====================-->
+                <div class="banner-container">
+                    <!--title-top===============-->
+                    <div class="title-top">
+                    <!--title-container*******************--->
+                    <div class="title-container">
+                        
+                        <!--title----->
+                        <div class="drama-title">
+                            <h1>Your Highness Class Monitor</h1>
+                        </div>
+                        <!--more-about-movie-->
+                        <div class="more-about-drama">
+                            <span class="quality">WeTV</span>
+                            <span>30 May 2019</span>
+                            <span>45min</span>
+                        </div>
+                         <!--language-------->
+                         <div class="language">
+                             <span>English, Chiness</span>
+                         </div>
+                        </div>
+                        
+                        <!--Title-bottom=====================-->
+                        <div class="title-bottom">
+                            <!--category---------->
+                            <div class="category">
+                                <strong>Category</strong><br>
+                                <a href="#" class="">College</a>,<a href="#">Love</a>, <a href="#">Sweet</a>
+                            </div>
+                            <!--trailer-btn-------->
+                            <a href="https://youtu.be/pfS_qtoI5JM" class="watch-btn">Watch Trailer</a>
+                            <a href="#" class="short-video" onclick="toggle();">Short Video</a>
+                        </div>
+                    </div>
+               </div>
+               <div class="trailer">
+                   <video src="video/tiktok_drama2.mp4" controls="true"></video>
+                   <img src="images/close.png" class="close" onclick="toggle();">
+               </div>
+            <script type="text/javascript">
+                function toggle(){
+                    var trailer= document.querySelector(".trailer")
+                    var video= document.querySelector(".video")
+                    trailer.classList.toggle("active");
+                    video.pause();
+                    video.currentTime = 0;
+                }
+            </script>
+            </section2>
+        
+            
+    </header2>
+    
+<!--details=================================-->
+<section3 class="drama-details">
+    <strong>Your Highness Class Monitor</strong>
+    <p>This drama tells the story of Gu Zichen, a rebellious rich young master, and Su Niannian, a stubborn female schoolmaster, who meet by accident. The happy friends unfold a pure and romantic love story centering on their studies and growth in the process of resolving their misunderstandings.</p>
+</section3>
+
+<!--==ScreenShots============================-->
+<section3 class="screenshots">
+    
+    <strong>Pictures</strong>
+    <!--screenshots-container-------------->
+    <div class="screen-s-container">
+        <img src="images/ScreenDrama2_1.jpg">
+        <img src="images/ScreenDrama2_2.jpg">
+        <img src="images/ScreenDrama2_3.jpg">
+        <img src="images/ScreenDrama2_4.jpg">
+    </div>
+</section3>
+    
+<!--==Download============================-->
+<section3 class="download-drama">
+        
+    <!--container-------------->
+    <div class="download-container">
+        <!--box---->
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep1.mp4" download>Ep1</a>
+            <a href="video/YhcmDrama/Ep2.mp4" download>Ep2</a>
+            <a href="video/YhcmDrama/Ep3.mp4"  download>Ep3</a>
+            <a href="video/YhcmDrama/Ep4.mp4" download>Ep4</a>
+        </div>
+        
+        <!--box---->
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep5.mp4" download>Ep5</a>
+            <a href="video/YhcmDrama/Ep6.mp4" download>Ep6</a>
+            <a href="video/YhcmDrama/Ep7.mp4"  download>Ep7</a>
+            <a href="video/YhcmDrama/Ep8.mp4" download>Ep8</a>
+        </div>
+        
+        <!--box---->
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep9.mp4" download>Ep9</a>
+            <a href="video/YhcmDrama/Ep10.mp4" download>Ep10</a>
+            <a href="video/YhcmDrama/Ep11.mp4"  download>Ep11</a>
+            <a href="video/YhcmDrama/Ep12.mp4" download>Ep12</a>
+        </div>
+        
+        <!--box---->
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep13.mp4" download>Ep13</a>
+            <a href="video/YhcmDrama/Ep14.mp4" download>Ep14</a>
+            <a href="video/YhcmDrama/Ep15.mp4"  download>Ep15</a>
+            <a href="video/YhcmDrama/Ep16.mp4" download>Ep16</a>
+        </div>
+        
+        <!--box---->
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep17.mp4" download>Ep17</a>
+            <a href="video/YhcmDrama/Ep18.mp4" download>Ep18</a>
+            <a href="video/YhcmDrama/Ep19.mp4"  download>Ep19</a>
+            <a href="video/YhcmDrama/Ep20.mp4" download>Ep20</a>
+        </div>
+        
+        <!--box---->
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep21.mp4" download>Ep21</a>
+            <a href="video/YhcmDrama/Ep22.mp4" download>Ep22</a>
+            <a href="video/YhcmDrama/Ep23.mp4"  download>Ep23</a>
+            <a href="video/YhcmDrama/Ep24.mp4" download>Ep24</a>
+        </div>
+        
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep25.mp4" download>Ep25</a>
+            <a href="video/YhcmDrama/Ep26.mp4" download>Ep26</a>
+            <a href="video/YhcmDrama/Ep27.mp4"  download>Ep27</a>
+            <a href="video/YhcmDrama/Ep28.mp4" download>Ep28</a>
+        </div>
+        
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep29.mp4" download>Ep29</a>
+            <a href="video/YhcmDrama/Ep30.mp4" download>Ep30</a>
+            <a href="video/YhcmDrama/Ep31.mp4"  download>Ep31</a>
+            <a href="video/YhcmDrama/Ep32.mp4" download>Ep32</a>
+        </div>
+        
+        <div class="download-box">
+            <a href="video/YhcmDrama/Ep33.mp4" download>Ep33</a>
+            <a href="video/YhcmDrama/Ep34.mp4" download>Ep34</a>
+            <a href="video/YhcmDrama/Ep35.mp4"  download>Ep35</a>
+            <a href="video/YhcmDrama/Ep36.mp4" download>Ep36</a>
+        </div>
+    </div>
+</section3>
+    
+<!--==Footer============================-->
+<div class="footer">
+    <hr>
+    <p>All videos and pictures on this website are derived from online searches, and the copyright belongs to the original creator. This website only provides web page services, does not provide resource storage, and does not participate in video recording and uploading. If the videos and pictures on this site infringe the copyright unintentionally, please send a message to the ig account: china.drama.96 (This site will delete the infringing content as soon as possible, thank you.)</p>
+    <hr>
+    <p class="copyright">Instagram: china.drama.96</p>
+</div>
+</body>
+</html>
