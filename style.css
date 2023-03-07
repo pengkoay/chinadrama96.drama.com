@@ -1023,7 +1023,7 @@ header section .cards .card:hover .rest_card{
     }
 }
 
-@media (max-width: 300px){
+@media (max-width: 400px){
     header .content h1{
     display: flex;
     align-items: center;
