@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x.icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CH Drama</title>
+</head>
+    
+<body>
+    <header>
+        <video src="video/video2.mp4" autoplay muted></video>
+        <nav>
+            <div class="logo_ul">
+                <a href="index.html" target="_blank">
+                    <img src="images/logo.png">
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="costume.html">Costume</a>
+                    </li>
+                    <li>
+                        <a href="modern.html">Modern</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search_user">
+                <form action="" class="search-box">
+                    <input type="text" value="" id="search" onchange="openPage()" placeholder="Search Drama" class="search-input" required/>
+                    
+                    <script>
+                        function openPage(){
+                            var input = document.getElementById("search").value;
+                            
+                            if(input === "致我们暖暖的小时光"){
+                                window.open("PyhomsDrama.html");
+                            }
+                            
+                            if(input === "Put Your Head On My Shoulder"){
+                                window.open("PyhomsDrama.html");
+                            }
+                            
+                            if(input === "班长殿下"){
+                                window.open("YhcmDrama.html");
+                            }
+                            
+                            if(input === "Your Highness Class Monitor"){
+                                window.open("YhcmDrama.html");
+                            }
+                            
+                            if(input === "离人心上"){
+                                window.open("TspDrama.html");
+                            }
+                            
+                            if(input === "The Sleepless Princess"){
+                                window.open("TspDrama.html");
+                            }
+                        }
+                    </script>
+                </form>
+                <img src="images/user.jpg">
+                <div class="search">
+                    <a href="#" class="card">
+                        <img src="images/drama2.png">
+                        <div class="cont">
+                            <h3>Your Highness Class Monitor</h3>
+                            <p>Modern, 2019 , <span>WeTV</span><i class="bi bi-star-fill"></i> 5.0</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <h1 id="title">Your Highness Class Monitor</h1>
+            <p>This drama started shooting in Taiwan on March 27, 2017, and ended on June 6.</p>
+            <div class="details">
+                <h6>A WeTV Original Drama</h6>
+                <h5 id="gen">College romance drama</h5>
+                <h4>2019</h4>
+                <h3 id="rate"><span>WeTV</span><i class="bi bi-star-fill"></i>5.0</h3>
+            </div>
+            <div class="btns">
+                
+                <a href="YhcmDrama.html" id="play">Watch <i class="bi bi-play-fill"></i></a>
+                <a href="video/video2.mp4" id="download_main"> <i class="bi bi-cloud-arrow-down-fill" download></i></a>
+            </div>
+        </div>
+        <section>
+            <h4>Drama</h4>
+            <div class="cards">
+                <a href="TspDrama.html" class="card">
+                    <img src="images/drama1.png" alt="" class="poster">
+                    <div class="rest_card">
+                        <img src="images/drama1_1.jpg" alt="">
+                        <div class="cont">
+                            <h4>The Sleepless Princess </h4>
+                            <div class="sub">
+                                <p>Romantic drama, 2020</p>
+                                <h3><span>MgTV</span><i class="bi bi-star-fill"></i>8.0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="YhcmDrama.html" class="card">
+                    <img src="images/drama2.png" alt="" class="poster">
+                    <div class="rest_card">
+                        <img src="images/drama2_1.jpg" alt="">
+                        <div class="cont">
+                            <h4>Your Highness Class Monitor </h4>
+                            <div class="sub">
+                                <p>Love drama, 2019</p>
+                                <h3><span>WeTV</span><i class="bi bi-star-fill"></i>5.0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="PyhomsDrama.html" class="card">
+                    <img src="images/drama3.jpg" alt="" class="poster">
+                    <div class="rest_card">
+                        <img src="images/drama3_1.jpg" alt="">
+                        <div class="cont">
+                            <h4>Put Your Head On My Shoulder </h4>
+                            <div class="sub">
+                                <p>Youth, love drama, 2019</p>
+                                <h3><span>WeTV</span><i class="bi bi-star-fill"></i>8.7</h3>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </header> 
+</body>
+</html>
