@@ -1024,6 +1024,10 @@ header2 section .cards .card:hover .rest_card{
 }
 
 @media (max-width: 452px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
 
     .drama-title h1 {
         color: #fff;
@@ -1047,6 +1051,10 @@ header2 section .cards .card:hover .rest_card{
 }
 
 @media (max-width: 352px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
 
     .drama-title h1 {
         color: #fff;
@@ -1084,6 +1092,10 @@ header2 section .cards .card:hover .rest_card{
 }
 
 @media (max-width: 252px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
 
     .drama-title h1 {
         color: #fff;
@@ -1121,6 +1133,10 @@ header2 section .cards .card:hover .rest_card{
 }
 
 @media (max-width: 152px){
+    
+    .banner-container {
+        margin-left: 10px;
+    }
 
     .drama-title h1 {
         color: #fff;
