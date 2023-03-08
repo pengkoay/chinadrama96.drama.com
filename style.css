@@ -1099,6 +1099,7 @@ header section .cards .card:hover .rest_card{
 	.screen-s-container {
     		margin-left: 80px;
 		margin-top: 10px;
+		width: 85%;
 	}
 }
 
@@ -1150,6 +1151,7 @@ header section .cards .card:hover .rest_card{
 	.screen-s-container {
     		margin-left: 80px;
 		margin-top: 10px;
+		width: 85%;
 	}
 }
 
@@ -1201,5 +1203,6 @@ header section .cards .card:hover .rest_card{
 	.screen-s-container {
     		margin-left: 80px;
 		margin-top: 10px;
+		width: 85%;
 	}
 }
