@@ -646,7 +646,7 @@ header3 section .cards .card:hover .rest_card{
     margin-top: 10px;
 }
 .trailer{
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -1049,6 +1049,17 @@ header3 section .cards .card:hover .rest_card{
         font-size: 10px;
         margin: auto;
     }
+    
+    .trailer {
+        width: 60%;
+        height: 40%;
+    }
+
+    .close {
+        top: 10px;
+        right: 5px;
+        max-width: 12px;
+    }
 }
 
 @media (max-width: 352px){
@@ -1090,6 +1101,17 @@ header3 section .cards .card:hover .rest_card{
         height: 30px;
         font-size: 10px;
         margin: auto;
+    }
+    
+    .trailer {
+        width: 60%;
+        height: 40%;
+    }
+
+    .close {
+        top: 10px;
+        right: 5px;
+        max-width: 12px;
     }
 }
 
@@ -1133,6 +1155,17 @@ header3 section .cards .card:hover .rest_card{
         font-size: 10px;
         margin: auto;
     }
+    
+    .trailer {
+        width: 60%;
+        height: 40%;
+    }
+
+    .close {
+        top: 10px;
+        right: 5px;
+        max-width: 12px;
+    }
 }
 
 @media (max-width: 152px){
@@ -1174,5 +1207,16 @@ header3 section .cards .card:hover .rest_card{
         height: 30px;
         font-size: 10px;
         margin: auto;
+    }
+    
+    .trailer {
+        width: 60%;
+        height: 40%;
+    }
+
+    .close {
+        top: 10px;
+        right: 5px;
+        max-width: 12px;
     }
 }
