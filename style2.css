@@ -646,7 +646,7 @@ header2 section .cards .card:hover .rest_card{
     margin-top: 10px;
 }
 .trailer{
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
