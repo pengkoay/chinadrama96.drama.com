@@ -1113,6 +1113,15 @@ header2 section .cards .card:hover .rest_card{
         right: 5px;
         max-width: 12px;
     }
+    
+    .screenshots strong {
+    		margin-left: 50px;
+	}
+
+	.screen-s-container {
+    		margin-left: 80px;
+		margin-top: 10px;
+	}
 }
 
 @media (max-width: 252px){
@@ -1166,6 +1175,15 @@ header2 section .cards .card:hover .rest_card{
         right: 5px;
         max-width: 12px;
     }
+    
+    .screenshots strong {
+    		margin-left: 50px;
+	}
+
+	.screen-s-container {
+    		margin-left: 80px;
+		margin-top: 10px;
+	}
 }
 
 @media (max-width: 152px){
@@ -1219,4 +1237,13 @@ header2 section .cards .card:hover .rest_card{
         right: 5px;
         max-width: 12px;
     }
+    
+    .screenshots strong {
+    		margin-left: 50px;
+	}
+
+	.screen-s-container {
+    		margin-left: 80px;
+		margin-top: 10px;
+	}
 }
