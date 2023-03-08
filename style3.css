@@ -1119,8 +1119,9 @@ header3 section .cards .card:hover .rest_card{
 	}
 
 	.screen-s-container {
-    		margin-left: 80px;
+    		margin-left: 30px;
 		margin-top: 10px;
+		width: 85%;
 	}
 }
 
@@ -1181,8 +1182,9 @@ header3 section .cards .card:hover .rest_card{
 	}
 
 	.screen-s-container {
-    		margin-left: 80px;
+    		margin-left: 30px;
 		margin-top: 10px;
+		width: 85%;
 	}
 }
 
@@ -1243,7 +1245,8 @@ header3 section .cards .card:hover .rest_card{
 	}
 
 	.screen-s-container {
-    		margin-left: 80px;
+    		margin-left: 30px;
 		margin-top: 10px;
+		width: 85%;
 	}
 }
